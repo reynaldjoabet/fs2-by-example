@@ -1,9 +1,9 @@
 import Dependencies._
 
-ThisBuild / scalaVersion := "3.3.7"
-ThisBuild / version      := "0.1.0-SNAPSHOT"
+scalaVersion := "3.3.7"
+version      := "0.1.0-SNAPSHOT"
 
-ThisBuild / scalacOptions ++= Seq(
+scalacOptions ++= Seq(
   "-no-indent",
   "-rewrite",
   "-deprecation", // Warns about deprecated APIs
